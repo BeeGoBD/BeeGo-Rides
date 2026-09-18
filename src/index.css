@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom styling for Leaflet controls on dark theme */
+.leaflet-container {
+  background-color: #0a0a0a !important;
+  font-family: inherit;
+  width: 100%;
+  height: 100%;
+}
+
+.leaflet-bar a {
+  background-color: #18181b !important;
+  color: #ffffff !important;
+  border-bottom-color: #27272a !important;
+}
+
+.leaflet-bar a:hover {
+  background-color: #27272a !important;
+  color: #ffffff !important;
+}
+
+.leaflet-control-attribution {
+  background: rgba(0, 0, 0, 0.75) !important;
+  color: #71717a !important;
+  font-size: 10px !important;
+}
+
+.leaflet-control-attribution a {
+  color: #a1a1aa !important;
+}

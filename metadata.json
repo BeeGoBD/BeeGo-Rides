@@ -1,0 +1,6 @@
+{
+  "name": "Ride Request",
+  "description": "Real-time ride request, dispatch, and navigation system with guest passenger and rider dashboards, fare calculation at 70 Taka/km, and routing powered by Geoapify.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
